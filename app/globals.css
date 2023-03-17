@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer header {
+  .path{
+     clip-path:polygon(0 0,100% 0, 100% 100%,95% 95%, 5% 95%,0 100%);
+  }
+  .path1{
+    clip-path:polygon(0 0,5% 5%,95% 5%,100% 0, 100% 100%,95% 95%, 5% 95%,0 100%);
+ }
+}
