@@ -9,7 +9,7 @@ const projects = [
     description: "Portfolia Website design using Next.js with tailwind CSS.",
     image: "/projects/asif.png",
     github: "https://github.com/AsifRaza1009/panaverse-website",
-    link: "https://vercel.com/asifraza1009/website2",
+    link: "https://resumewebsite-chi.vercel.app/",
   },
   {
     name: "Panaverse DAO Website",
@@ -17,7 +17,7 @@ const projects = [
       "Panaverse DAO is a website in which all kind of te detail about the Panaverse company.",
     image: "/projects/logo4.png",
     github: "https://github.com/AsifRaza1009/panaverse-website",
-    link: "https://vercel.com/asifraza1009/website2",
+    link: "https://website2-one-iota.vercel.app/",
   },
   {
     name: "ToDo App",
@@ -101,7 +101,7 @@ export default function Project() {
                     <p className='text-md flex-grow leading-7 text-justify'>
                       {project.description}
                     </p>
-                    <div className='inline-flex text-red-700 space-x-4'>
+                    <div className='inline-flex text-blue-500 space-x-4 md:pb-5 md:pl-4'>
                       <Link href={project.github} target='_blank'>
                         <BsGithub
                           size={30}
