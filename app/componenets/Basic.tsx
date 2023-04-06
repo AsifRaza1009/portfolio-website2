@@ -9,9 +9,9 @@ import { AiFillGithub } from "react-icons/ai";
 export default function Basic() {
   return (
     <div className='path '>
-      <div className=' items-center justify-between px-28  pt-16 pb-32  bg-gray-900 min-h-full '>
+      <div className=' items-center justify-between px-10 md:px-28  pt-16 pb-32  bg-gray-900 min-h-full '>
         <div className='text-center text-gray-100 font-serif'>
-          <h1 className='text-4xl font-bold mt-6 md:mt-0 md:text-5xl'>
+          <h1 className='text-2xl font-bold mt-6 md:mt-0 md:text-5xl'>
             Hi, I&#39;m{" "}
             <span className=' text-red-500 hover:text-red-500 uppercase hover:border-2 hover:bg-green-200 hover:animate-pulse'>
               Asif Raza
@@ -28,29 +28,29 @@ export default function Basic() {
         </div>
 
         <div className='flex px-2 py-3 space-x-2 md:space-x-4 pt-10 justify-center '>
-          <div className='text-white rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+          <div className='text-white rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-125 ease-in duration-300'>
             <Link href='https://www.facebook.com' target='_blank'>
               <BsFacebook size={30} />
             </Link>
           </div>
 
-          <div className='text-white rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+          <div className='text-white rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-125 ease-in duration-300'>
             <Link href='https://www.twitter.com' target='_blank'>
               <AiFillTwitterCircle size={30} />
             </Link>
           </div>
 
-          <div className='text-white rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+          <div className='text-white rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-125 ease-in duration-300'>
             <Link href='https://www.linkedin.com/feed/' target='_blank'>
               <AiFillLinkedin size={30} />
             </Link>
           </div>
-          <div className='text-white rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+          <div className='text-white rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-125 ease-in duration-300'>
             <Link href='https://github.com/AsifRaza1009' target='_blank'>
               <AiFillGithub size={30} />
             </Link>
           </div>
-          <div className='text-white rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+          <div className='text-white rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-125 ease-in duration-300'>
             <Link href='https://www.youtube.com/channel/UCNGhfBkAtoXrxFe_LkbWQ5Q' target='_blank'>
               <AiFillYoutube size={30} />
             </Link>

@@ -10,12 +10,13 @@ import Skills from "./componenets/Skills";
 export default function page() {
   return (
     <>
-      <Header />
+       <Header />
       <Basic />
       <About />
       <Skills />
       <Projects />
-      <Contact />
+      <Contact /> 
+      
     </>
   );
 }

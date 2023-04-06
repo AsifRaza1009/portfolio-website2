@@ -18,7 +18,7 @@ export default function Skills() {
         <div className='bg-gray-900'>
           <div className='w-full min-h-screen lg:h-screen py-24 px-10 '>
             <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
-              <p className=' font-serif font-semibold uppercase text-3xl tracking-widest text-blue-500 border-l-8 border-l-red-500'>
+              <p className='pl-5 font-serif font-semibold uppercase text-3xl tracking-widest text-blue-500 border-l-4 border-l-red-500'>
                 Skills
               </p>
               <h2 className='py-4 text-red-500 font-serif text-2xl'>
@@ -63,7 +63,7 @@ export default function Skills() {
                       <Image src={TS} width={64} height={64} alt='/' />
                     </div>
                     <div className='flex flex-col items-center justify-center'>
-                      <h3 className='font-serif font-semibold text-xs'>TYPESCRPITE</h3>
+                      <h3 className='font-serif font-semibold text-xs'>TYPESCRPIT</h3>
                     </div>
                   </div>
                 </div>

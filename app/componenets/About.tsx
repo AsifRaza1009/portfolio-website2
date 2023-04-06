@@ -15,7 +15,7 @@ export default function About() {
     <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
     
       <div className='col-span-2'>
-        <p className=' font-serif font-semibold uppercase text-xl tracking-widest text-blue-500 border-l-8 border-l-red-500 pl-5 '>
+        <p className=' font-serif font-semibold uppercase text-xl tracking-widest text-blue-500 border-l-4 border-l-red-500 pl-5 '>
           About Me
         </p>
         <h2 className='py-4 text-red-500 font-serif'>Who I Am</h2>
